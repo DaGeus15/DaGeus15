@@ -1,16 +1,26 @@
-## Hi there 👋
+# ¡Hola! 👋  
 
-<!--
-**DaGeus15/DaGeus15** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+¡Hola! Soy Daylé, una desarrolladora apasionada por el desarrollo web. 🚀 Aquí encontrarás mis proyectos, experimentos y un poco de todo lo que me encanta crear.
 
-Here are some ideas to get you started:
+🌟 **Explora mi trabajo completo en mi portafolio:**
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+[🌐 **Mi Portafolio**](https://DaGeus15.github.io)  
+
+---
+
+💻 **Sobre mí:**
+- 🌱 Actualmente aprendiendo Node y React.
+- 🎯 Enfocada en completar mi carrera universitaria.
+- 💬 ¡Si tienes preguntas o quieres colaborar, no dudes en contactarme!
+
+---
+
+✨ **Mis herramientas favoritas:**
+- Java🛠️
+- Node🌐
+- React 📊
+
+---
+
+📩 **Contáctame:**  
+[Email](garciadayle2004gmail.com)
