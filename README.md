@@ -55,7 +55,7 @@
 
 ---
 
-<h3 align="center">📊 GitHub Stats y Animaciones</h3>
+<h3 align="center">📊 GitHub Stats</h3>
 
 <div align="center">
   <a href="https://ghstats.dev">
@@ -66,13 +66,17 @@
 <br>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/DaGeus15/DaGeus15/output/github-contribution-grid-snake.svg" alt="Snake Game" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/DaGeus15/DaGeus15/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/DaGeus15/DaGeus15/output/github-contribution-grid-snake.svg">
+    <img alt="GitHub Contribution Grid Snake" src="https://raw.githubusercontent.com/DaGeus15/DaGeus15/output/github-contribution-grid-snake.svg">
+  </picture>
 </div>
 
 <br>
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=DaGeus15&theme=tokyonight" alt="GitHub Streak Stats" />
+  <img src="https://streak-stats.demolab.com/?user=DaGeus15&theme=tokyonight" alt="GitHub Streak Stats" />
 </div>
 
 ---
