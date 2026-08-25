@@ -73,12 +73,6 @@
   </picture>
 </div>
 
-<br>
-
-<div align="center">
-  <img src="https://streak-stats.demolab.com/?user=DaGeus15&theme=tokyonight" alt="GitHub Streak Stats" />
-</div>
-
 ---
 
 ### 📩 Contáctame
