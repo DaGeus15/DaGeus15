@@ -1,15 +1,15 @@
-<a href="https://dageus15.github.io/es/">
+<a href="https://dageus15.github.io/assets/banner-github.mp4">
   <picture>
     <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark)" srcset="assets/glass-dark.png">
     <source media="(prefers-reduced-motion: reduce)" srcset="assets/glass-light.png">
     <source media="(prefers-color-scheme: dark)" srcset="assets/glass-dark.gif">
-    <img src="assets/glass-light.gif" alt="Daylé García Fernández · Backend Developer · Java y Spring Boot">
+    <img src="assets/glass-light.gif" alt="Reproducir el banner de Daylé García Fernández · Backend Developer · Java y Spring Boot">
   </picture>
 </a>
 
 Desarrollo microservicios y APIs REST en **Alquimiasoft**. Mis proyectos con NestJS y Next.js abarcan sistemas distribuidos, biometría y pedidos en tiempo real.
 
-**[Portafolio](https://dageus15.github.io/es/) · [English](https://dageus15.github.io/en/) · [LinkedIn](https://www.linkedin.com/in/dayle-garcia/) · [Reproducir banner](https://raw.githubusercontent.com/DaGeus15/DaGeus15/main/assets/glass-dark.gif)**
+**[Portafolio](https://dageus15.github.io/es/) · [English](https://dageus15.github.io/en/) · [LinkedIn](https://www.linkedin.com/in/dayle-garcia/) · [Reproducir banner](https://dageus15.github.io/assets/banner-github.mp4)**
 
 ## Proyectos destacados
 
