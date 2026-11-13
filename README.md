@@ -1,9 +1,7 @@
 <a href="https://dageus15.github.io/es/">
   <picture>
-    <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark)" srcset="assets/banner-dark.jpg">
-    <source media="(prefers-reduced-motion: reduce)" srcset="assets/banner-light.jpg">
-    <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.gif">
-    <img src="assets/banner-light.gif" alt="Daylé García Fernández · Software Engineer · Backend" width="1120" height="354">
+    <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark-loop.gif">
+    <img src="assets/banner-light-loop.gif" alt="Daylé García Fernández · Software Engineer · Backend">
   </picture>
 </a>
 
