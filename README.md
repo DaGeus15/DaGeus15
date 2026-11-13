@@ -1,32 +1,72 @@
 <a href="https://dageus15.github.io/es/">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark-loop.gif">
-    <img src="assets/banner-light-loop.gif" alt="Daylé García Fernández · Software Engineer · Backend">
+    <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark)" srcset="assets/profile-dark.png">
+    <source media="(prefers-reduced-motion: reduce)" srcset="assets/profile-light.png">
+    <source media="(prefers-color-scheme: dark)" srcset="assets/profile-dark.gif">
+    <img src="assets/profile-light.gif" width="1120" height="320" alt="Daylé García Fernández · Backend Developer · Java y Spring Boot">
   </picture>
 </a>
 
-Construyo microservicios en **Java y Spring Boot**, APIs REST y pruebas automatizadas. Trabajo como desarrolladora backend en Alquimiasoft y, fuera del trabajo, desarrollo sistemas con NestJS y Next.js.
+Desarrollo microservicios, APIs REST y pruebas automatizadas en **Alquimiasoft**. En mis proyectos con NestJS y Next.js he trabajado en sistemas distribuidos, verificación de identidad y pedidos en tiempo real.
 
-[Portafolio](https://dageus15.github.io/es/) · [Portfolio in English](https://dageus15.github.io/en/) · [LinkedIn](https://www.linkedin.com/in/dayle-garcia/)
+**[Portafolio](https://dageus15.github.io/es/) · [Portfolio in English](https://dageus15.github.io/en/) · [LinkedIn](https://www.linkedin.com/in/dayle-garcia/)**
 
-### Proyectos destacados
+## Proyectos destacados
 
-- **Asistente de cursos CTT-FISEI.** Diseñé y probé un asistente de Telegram y un panel para que un operador pueda tomar la conversación en vivo. Orquesté los agentes de IA que escribieron el código. [Caso de estudio](https://dageus15.github.io/es/projects/helpdesk/) · [Repositorio](https://github.com/DaGeus15/helpdesk_agent_uta)
-- **Fiado.** Implementé la prueba de vida, la comparación con la cédula y el traspaso al celular mediante QR. También trabajé en el registro y la sesión. [Caso de estudio](https://dageus15.github.io/es/projects/fiado/)
-- **Gasoline System.** En un equipo de cuatro trabajé en microservicios, contratos gRPC y eventos NATS para el control de combustible de una flota. [Caso de estudio](https://dageus15.github.io/es/projects/gasoline/) · [Backend](https://github.com/Application-Distributed-Gasoline-System/Backend)
-- **KAPHIY.** Trabajé en el modelo de datos, la API de pedidos y el canal de tiempo real de un sistema para cafetería. [Caso de estudio](https://dageus15.github.io/es/projects/kaphiy/) · [Repositorio del equipo](https://github.com/Arkasys-GDP/Kaphiy)
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://dageus15.github.io/es/projects/fiado/"><img src="assets/projects/fiado.png" width="540" alt="Verificación biométrica de Fiado"></a><br>
+      <strong>Fiado</strong><br>
+      Implementé la prueba de vida, la comparación con la cédula y el traspaso al celular mediante QR. También trabajé en el registro y la sesión.<br>
+      <a href="https://dageus15.github.io/es/projects/fiado/">Caso de estudio</a>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://dageus15.github.io/es/projects/helpdesk/"><img src="assets/projects/helpdesk.png" width="540" alt="Panel del operador del asistente de cursos"></a><br>
+      <strong>Asistente de cursos CTT-FISEI</strong><br>
+      Diseñé y probé el asistente de Telegram y el panel para intervenir en vivo. Orquesté los agentes de IA que escribieron el código.<br>
+      <a href="https://dageus15.github.io/es/projects/helpdesk/">Caso de estudio</a> · <a href="https://github.com/DaGeus15/helpdesk_agent_uta">Repositorio</a>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <a href="https://dageus15.github.io/es/projects/kaphiy/"><img src="assets/projects/kaphiy.png" width="540" alt="Panel de pedidos de cocina de KAPHIY"></a><br>
+      <strong>KAPHIY</strong><br>
+      Trabajé en el modelo de datos, la API de pedidos y el canal WebSocket de una cafetería cuyo sistema está en producción.<br>
+      <a href="https://dageus15.github.io/es/projects/kaphiy/">Caso de estudio</a> · <a href="https://github.com/Arkasys-GDP/Kaphiy">Repositorio del equipo</a>
+    </td>
+    <td valign="top">
+      <a href="https://dageus15.github.io/es/projects/gasoline/"><img src="assets/projects/gasoline.png" width="540" alt="Panel de rutas de Gasoline System"></a><br>
+      <strong>Gasoline System</strong><br>
+      Implementé microservicios, contratos gRPC y eventos NATS para el control de combustible de una flota, en un equipo de cuatro.<br>
+      <a href="https://dageus15.github.io/es/projects/gasoline/">Caso de estudio</a> · <a href="https://github.com/Application-Distributed-Gasoline-System/Backend">Repositorio del backend</a>
+    </td>
+  </tr>
+</table>
 
-En mis [notas técnicas](https://dageus15.github.io/es/notes/) cuento cómo resolví la rotación de refresh tokens y el uso de ambas caras de una cédula para la verificación de identidad.
-<details>
-<summary>Stack y herramientas</summary>
+[Ver los siete casos de estudio](https://dageus15.github.io/es/projects/) · [Leer las notas técnicas](https://dageus15.github.io/es/notes/)
 
-| Área | Tecnologías |
-| --- | --- |
-| Backend | Java, Spring Boot, NestJS, REST, gRPC y NATS |
-| Datos | PostgreSQL y Prisma |
-| Pruebas y entrega | Mockito, Docker y GitHub Actions |
-| Interfaces | Next.js, React y Flutter |
+En [Booking View](https://dageus15.github.io/es/projects/booking/) trabajé en la API REST y la app de React Native para reservar inmuebles. [Repositorio del equipo](https://github.com/DaGeus15/BookingView)
 
-[Ver la pila interactiva](https://dageus15.github.io/es/experience/#stack)
+## Stack
 
-</details>
+<a href="https://dageus15.github.io/es/experience/#stack-backend"><img src="assets/stack/java.svg" alt="Java" width="36" height="36"></a>
+<a href="https://dageus15.github.io/es/experience/#stack-backend"><img src="assets/stack/spring.svg" alt="Spring Boot" width="36" height="36"></a>
+<a href="https://dageus15.github.io/es/experience/#stack-node"><img src="assets/stack/nestjs.svg" alt="NestJS" width="36" height="36"></a>
+<a href="https://dageus15.github.io/es/experience/#stack-data"><img src="assets/stack/postgresql.svg" alt="PostgreSQL" width="36" height="36"></a>
+<a href="https://dageus15.github.io/es/experience/#stack-frontend"><img src="assets/stack/nextjs.svg" alt="Next.js" width="36" height="36"></a>
+<a href="https://dageus15.github.io/es/experience/#stack-devops"><img src="assets/stack/docker.svg" alt="Docker" width="36" height="36"></a>
+<a href="https://dageus15.github.io/es/experience/#stack-devops"><img src="assets/stack/github-actions.svg" alt="GitHub Actions" width="36" height="36"></a>
+
+[Explorar la pila interactiva y ver dónde usé cada tecnología](https://dageus15.github.io/es/experience/#stack)
+
+## Contribuciones
+
+<a href="https://github.com/DaGeus15?tab=overview">
+  <picture>
+    <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/DaGeus15/DaGeus15/output/github-contribution-grid-snake-dark-still.svg">
+    <source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/DaGeus15/DaGeus15/output/github-contribution-grid-snake-still.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/DaGeus15/DaGeus15/output/github-contribution-grid-snake-dark.svg">
+    <img src="https://raw.githubusercontent.com/DaGeus15/DaGeus15/output/github-contribution-grid-snake.svg" width="880" height="192" alt="Serpiente animada que recorre el calendario real de mis contribuciones en GitHub">
+  </picture>
+</a>
