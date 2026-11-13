@@ -1,15 +1,15 @@
 <a href="https://dageus15.github.io/es/">
   <picture>
-    <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark)" srcset="assets/profile-dark.png">
-    <source media="(prefers-reduced-motion: reduce)" srcset="assets/profile-light.png">
-    <source media="(prefers-color-scheme: dark)" srcset="assets/profile-dark.gif">
-    <img src="assets/profile-light.gif" alt="Daylé García Fernández · Backend Developer · Java y Spring Boot">
+    <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark)" srcset="assets/glass-dark.png">
+    <source media="(prefers-reduced-motion: reduce)" srcset="assets/glass-light.png">
+    <source media="(prefers-color-scheme: dark)" srcset="assets/glass-dark.gif">
+    <img src="assets/glass-light.gif" alt="Daylé García Fernández · Backend Developer · Java y Spring Boot">
   </picture>
 </a>
 
-Desarrollo microservicios, APIs REST y pruebas automatizadas en **Alquimiasoft**. En mis proyectos con NestJS y Next.js he trabajado en sistemas distribuidos, verificación de identidad y pedidos en tiempo real.
+Desarrollo microservicios y APIs REST en **Alquimiasoft**. Mis proyectos con NestJS y Next.js abarcan sistemas distribuidos, biometría y pedidos en tiempo real.
 
-**[Portafolio](https://dageus15.github.io/es/) · [Portfolio in English](https://dageus15.github.io/en/) · [LinkedIn](https://www.linkedin.com/in/dayle-garcia/)**
+**[Portafolio](https://dageus15.github.io/es/) · [English](https://dageus15.github.io/en/) · [LinkedIn](https://www.linkedin.com/in/dayle-garcia/) · [Reproducir banner](https://raw.githubusercontent.com/DaGeus15/DaGeus15/main/assets/glass-dark.gif)**
 
 ## Proyectos destacados
 
@@ -48,17 +48,47 @@ Desarrollo microservicios, APIs REST y pruebas automatizadas en **Alquimiasoft**
 
 En [Booking View](https://dageus15.github.io/es/projects/booking/) trabajé en la API REST y la app de React Native para reservar inmuebles. [Repositorio del equipo](https://github.com/DaGeus15/BookingView)
 
-## Stack
+## Mi stack
 
-<a href="https://dageus15.github.io/es/experience/#stack-backend"><img src="assets/stack/java.svg" alt="Java" width="36" height="36"></a>
-<a href="https://dageus15.github.io/es/experience/#stack-backend"><img src="assets/stack/spring.svg" alt="Spring Boot" width="36" height="36"></a>
-<a href="https://dageus15.github.io/es/experience/#stack-node"><img src="assets/stack/nestjs.svg" alt="NestJS" width="36" height="36"></a>
-<a href="https://dageus15.github.io/es/experience/#stack-data"><img src="assets/stack/postgresql.svg" alt="PostgreSQL" width="36" height="36"></a>
-<a href="https://dageus15.github.io/es/experience/#stack-frontend"><img src="assets/stack/nextjs.svg" alt="Next.js" width="36" height="36"></a>
-<a href="https://dageus15.github.io/es/experience/#stack-devops"><img src="assets/stack/docker.svg" alt="Docker" width="36" height="36"></a>
-<a href="https://dageus15.github.io/es/experience/#stack-devops"><img src="assets/stack/github-actions.svg" alt="GitHub Actions" width="36" height="36"></a>
+<table>
+  <tr>
+    <th scope="row" align="left"><a href="https://dageus15.github.io/es/experience/#stack-backend">Backend</a></th>
+    <td><img src="assets/stack/java.svg" alt="" width="22"> <img src="assets/stack/spring.svg" alt="" width="22"> <img src="assets/stack/nestjs.svg" alt="" width="22"></td>
+    <td>Java · Spring Boot · Node.js · NestJS</td>
+  </tr>
+  <tr>
+    <th scope="row" align="left"><a href="https://dageus15.github.io/es/experience/#stack-data">Datos</a></th>
+    <td><img src="assets/stack/postgresql.svg" alt="" width="22"> <img src="assets/stack/mysql.svg" alt="" width="22"> <img src="assets/stack/mongodb.svg" alt="" width="22"></td>
+    <td>PostgreSQL · MySQL · MongoDB · Prisma</td>
+  </tr>
+  <tr>
+    <th scope="row" align="left"><a href="https://dageus15.github.io/es/experience/#stack-devops">Pruebas y entrega</a></th>
+    <td><img src="assets/stack/docker.svg" alt="" width="22"> <img src="assets/stack/github-actions.svg" alt="" width="22"></td>
+    <td>Mockito · Docker · GitHub Actions · Azure</td>
+  </tr>
+  <tr>
+    <th scope="row" align="left"><a href="https://dageus15.github.io/es/experience/#stack-frontend">Interfaces</a></th>
+    <td><img src="assets/stack/nextjs.svg" alt="" width="22"> <img src="assets/stack/react.svg" alt="" width="22"> <img src="assets/stack/flutter.svg" alt="" width="22"></td>
+    <td>Next.js · React · TypeScript · Flutter</td>
+  </tr>
+</table>
 
-[Explorar la pila interactiva y ver dónde usé cada tecnología](https://dageus15.github.io/es/experience/#stack)
+[Ver mi stack completo](https://dageus15.github.io/es/experience/#stack)
+
+<details>
+<summary>Protocolos y herramientas</summary>
+
+- **APIs y mensajería** · REST, Swagger/OpenAPI, gRPC, NATS, Socket.IO
+- **Persistencia y autenticación** · JPA/Hibernate, SQL, PL/SQL, JWT
+- **Entrega e interfaces** · Docker Compose, Git, Vercel, React Native, Tailwind CSS
+
+</details>
+
+### Actualmente aprendiendo Ciencia de Datos
+
+<p><img src="assets/stack/python.svg" alt="" width="22"> Python para ciencia de datos · análisis y visualización con Power BI</p>
+
+[Ver mi formación](https://dageus15.github.io/es/about/#about)
 
 ## Contribuciones
 
