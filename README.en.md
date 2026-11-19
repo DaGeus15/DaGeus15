@@ -9,7 +9,7 @@
   </picture>
 </a>
 
-Backend developer working with Java and Spring Boot. At **Alquimiasoft** I build microservices and REST APIs with over 95% test coverage. My NestJS and Next.js projects cover distributed systems, biometrics and real-time ordering.
+Software Engineer. I work mostly on the backend with Java and Spring Boot, and also full stack with NestJS, React and Next.js. At **Alquimiasoft** I build microservices and REST APIs with over 95% test coverage.
 
 **[Portfolio](https://dageus15.github.io/en/) · [LinkedIn](https://www.linkedin.com/in/dayle-garcia/)**
 

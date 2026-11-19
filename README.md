@@ -9,7 +9,7 @@
   </picture>
 </a>
 
-Desarrolladora backend con Java y Spring Boot. En **Alquimiasoft** desarrollo microservicios y APIs REST con más del 95 % de cobertura de pruebas. Mis proyectos con NestJS y Next.js abarcan sistemas distribuidos, biometría y pedidos en tiempo real.
+Software Engineer. Trabajo sobre todo en backend con Java y Spring Boot, y también en full stack con NestJS, React y Next.js. En **Alquimiasoft** desarrollo microservicios y APIs REST con más del 95 % de cobertura de pruebas.
 
 **[Portafolio](https://dageus15.github.io/es/) · [LinkedIn](https://www.linkedin.com/in/dayle-garcia/)**
 
