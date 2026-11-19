@@ -1,31 +1,33 @@
-<a href="https://dageus15.github.io/assets/banner-github.mp4">
+**Español** · [English](README.en.md)
+
+<a href="https://dageus15.github.io/es/">
   <picture>
     <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark)" srcset="assets/glass-dark.png">
     <source media="(prefers-reduced-motion: reduce)" srcset="assets/glass-light.png">
     <source media="(prefers-color-scheme: dark)" srcset="assets/glass-dark.gif">
-    <img src="assets/glass-light.gif" alt="Reproducir el banner de Daylé García Fernández · Backend Developer · Java y Spring Boot">
+    <img src="assets/glass-light.gif" alt="Daylé García Fernández · Backend Developer · Java y Spring Boot">
   </picture>
 </a>
 
-Desarrollo microservicios y APIs REST en **Alquimiasoft**. Mis proyectos con NestJS y Next.js abarcan sistemas distribuidos, biometría y pedidos en tiempo real.
+Desarrolladora backend con Java y Spring Boot. En **Alquimiasoft** desarrollo microservicios y APIs REST con más del 95 % de cobertura de pruebas. Mis proyectos con NestJS y Next.js abarcan sistemas distribuidos, biometría y pedidos en tiempo real.
 
-**[Portafolio](https://dageus15.github.io/es/) · [English](https://dageus15.github.io/en/) · [LinkedIn](https://www.linkedin.com/in/dayle-garcia/) · [Reproducir banner](https://dageus15.github.io/assets/banner-github.mp4)**
+**[Portafolio](https://dageus15.github.io/es/) · [LinkedIn](https://www.linkedin.com/in/dayle-garcia/)**
 
 ## Proyectos destacados
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://dageus15.github.io/es/projects/fiado/"><img src="assets/projects/fiado.png" width="540" alt="Verificación biométrica de Fiado"></a><br>
-      <strong>Fiado</strong><br>
-      Implementé la prueba de vida, la comparación con la cédula, el traspaso por QR, el registro y la sesión.<br>
-      <a href="https://dageus15.github.io/es/projects/fiado/">Caso de estudio</a>
-    </td>
-    <td width="50%" valign="top">
       <a href="https://dageus15.github.io/es/projects/helpdesk/"><img src="assets/projects/helpdesk.png" width="540" alt="Panel del operador del asistente de cursos"></a><br>
       <strong>Asistente de cursos CTT-FISEI</strong><br>
       Diseñé y probé el asistente de Telegram y su panel de intervención en vivo. Orquesté los agentes de IA que escribieron el código.<br>
       <a href="https://dageus15.github.io/es/projects/helpdesk/">Caso de estudio</a> · <a href="https://github.com/DaGeus15/helpdesk_agent_uta">Repositorio</a>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://dageus15.github.io/es/projects/fiado/"><img src="assets/projects/fiado.png" width="540" alt="Verificación biométrica de Fiado"></a><br>
+      <strong>Fiado</strong><br>
+      Implementé la prueba de vida, la comparación con la cédula, el traspaso por QR, el registro y la sesión.<br>
+      <a href="https://dageus15.github.io/es/projects/fiado/">Caso de estudio</a>
     </td>
   </tr>
   <tr>
@@ -87,6 +89,8 @@ En [Booking View](https://dageus15.github.io/es/projects/booking/) trabajé en l
 ### Actualmente aprendiendo Ciencia de Datos
 
 <p><img src="assets/stack/python.svg" alt="" width="22"> Python para ciencia de datos · análisis y visualización con Power BI</p>
+
+Terminé **Data Science Essentials with Python** (Cisco, 2026). Resolví sus cinco proyectos abiertos con pandas, matplotlib y scikit-learn en [data-science-essentials-python](https://github.com/DaGeus15/data-science-essentials-python).
 
 [Ver mi formación](https://dageus15.github.io/es/about/#about)
 
