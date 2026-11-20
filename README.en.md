@@ -38,15 +38,15 @@ Software Engineer. I work mostly on the backend with Java and Spring Boot, and a
       <a href="https://dayle.dev/en/projects/kaphiy/">Case study</a> · <a href="https://github.com/Arkasys-GDP/Kaphiy">Team repository</a>
     </td>
     <td valign="top">
-      <a href="https://dayle.dev/en/projects/gasoline/"><img src="assets/projects/gasoline.png" width="540" alt="Gasoline System routes dashboard"></a><br>
-      <strong>Gasoline System</strong><br>
-      I built microservices, gRPC contracts and NATS events to track a fleet's fuel, in a team of four.<br>
-      <a href="https://dayle.dev/en/projects/gasoline/">Case study</a> · <a href="https://github.com/Application-Distributed-Gasoline-System/Backend">Backend repository</a>
+      <a href="https://dayle.dev/en/projects/miniwasp/"><img src="assets/projects/miniwasp.png" width="540" alt="MiniWasp public room with messages and a photo"></a><br>
+      <strong>MiniWasp</strong><br>
+      My own project, live: ephemeral messaging with no accounts, per-room encrypted attachments, on-server AI moderation and WebRTC video calls.<br>
+      <a href="https://dayle.dev/en/projects/miniwasp/">Case study</a> · <a href="https://miniwasp.up.railway.app">Live app</a>
     </td>
   </tr>
 </table>
 
-[See all seven case studies](https://dayle.dev/en/projects/) · [Read the technical notes](https://dayle.dev/en/notes/)
+[See every case study](https://dayle.dev/en/projects/) · [Read the technical notes](https://dayle.dev/en/notes/)
 
 On [Booking View](https://dayle.dev/en/projects/booking/) I worked on the REST API and the React Native app for booking properties. [Team repository](https://github.com/DaGeus15/BookingView)
 
@@ -54,48 +54,33 @@ On [Booking View](https://dayle.dev/en/projects/booking/) I worked on the REST A
 
 Concrete problems I solved, told with the real code:
 
-- **[Rotating refresh tokens without logging anyone out on a double click](https://dayle.dev/en/notes/refresh-token-rotation/)** · Every refresh swaps the token, and reusing an old one ends the whole session. The catch: two tabs refreshing at once look like theft.
-- **[The Ecuadorian ID card has two faces](https://dayle.dev/en/notes/id-card-two-faces/)** · Face verification worked with the test photos and rejected almost every real ID card. Four fixes, and a threshold calibrated with data.
-
-## My stack
-
 <table>
   <tr>
-    <th scope="row" align="left"><a href="https://dayle.dev/en/experience/#stack-backend">Backend</a></th>
-    <td><img src="assets/stack/java.svg" alt="" width="22"> <img src="assets/stack/spring.svg" alt="" width="22"> <img src="assets/stack/nestjs.svg" alt="" width="22"></td>
-    <td>Java · Spring Boot · Node.js · NestJS</td>
-  </tr>
-  <tr>
-    <th scope="row" align="left"><a href="https://dayle.dev/en/experience/#stack-data">Data</a></th>
-    <td><img src="assets/stack/postgresql.svg" alt="" width="22"> <img src="assets/stack/mysql.svg" alt="" width="22"> <img src="assets/stack/mongodb.svg" alt="" width="22"></td>
-    <td>PostgreSQL · MySQL · MongoDB · Prisma</td>
-  </tr>
-  <tr>
-    <th scope="row" align="left"><a href="https://dayle.dev/en/experience/#stack-devops">Testing and delivery</a></th>
-    <td><img src="assets/stack/docker.svg" alt="" width="22"> <img src="assets/stack/github-actions.svg" alt="" width="22"></td>
-    <td>Mockito · Docker · GitHub Actions · Azure</td>
-  </tr>
-  <tr>
-    <th scope="row" align="left"><a href="https://dayle.dev/en/experience/#stack-frontend">Interfaces</a></th>
-    <td><img src="assets/stack/nextjs.svg" alt="" width="22"> <img src="assets/stack/react.svg" alt="" width="22"> <img src="assets/stack/flutter.svg" alt="" width="22"></td>
-    <td>Next.js · React · TypeScript · Flutter</td>
+    <td width="50%" valign="top">
+      <strong>Rotating refresh tokens without logging anyone out on a double click</strong><br>
+      <sub>Every refresh swaps the token, and reusing an old one ends the whole session. The catch: two tabs refreshing at once look like theft.</sub><br><br>
+      <a href="https://dayle.dev/en/notes/refresh-token-rotation/">Read the note →</a>
+    </td>
+    <td width="50%" valign="top">
+      <strong>The Ecuadorian ID card has two faces</strong><br>
+      <sub>Face verification worked with the test photos and rejected almost every real ID card. Four fixes, and a threshold calibrated with data.</sub><br><br>
+      <a href="https://dayle.dev/en/notes/id-card-two-faces/">Read the note →</a>
+    </td>
   </tr>
 </table>
 
-[See my full stack](https://dayle.dev/en/experience/#stack)
+## My stack
 
-<details>
-<summary>Protocols and tools</summary>
+<a href="https://dayle.dev/en/experience/#stack">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/DaGeus15/DaGeus15/output/stack-en-dark.svg">
+    <img src="https://raw.githubusercontent.com/DaGeus15/DaGeus15/output/stack-en.svg" alt="My stack: Java, Spring Boot, Node.js and NestJS for backend; PostgreSQL, MySQL, MongoDB and Prisma for data; Docker, GitHub Actions and Azure for testing and delivery; Next.js, React, TypeScript and Flutter for interfaces">
+  </picture>
+</a>
 
-- **APIs and messaging** · REST, Swagger/OpenAPI, gRPC, NATS, Socket.IO
-- **Persistence and auth** · JPA/Hibernate, SQL, PL/SQL, JWT
-- **Delivery and interfaces** · Docker Compose, Git, Vercel, React Native, Tailwind CSS
-
-</details>
+[See my full stack](https://dayle.dev/en/experience/#stack) · Protocols and tools: REST, Swagger/OpenAPI, gRPC, NATS, Socket.IO, WebRTC, JPA/Hibernate, JWT, Mockito, Vercel, Tailwind CSS
 
 ### Currently learning data science
-
-<p><img src="assets/stack/python.svg" alt="" width="22"> Python for data science · analysis and visualization with Power BI</p>
 
 I completed **Data Science Essentials with Python** (Cisco, 2026) and solved its five open-ended projects with pandas, matplotlib and scikit-learn in [data-science-essentials-python](https://github.com/DaGeus15/data-science-essentials-python).
 

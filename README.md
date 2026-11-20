@@ -38,15 +38,15 @@ Software Engineer. Trabajo sobre todo en backend con Java y Spring Boot, y tambi
       <a href="https://dayle.dev/es/projects/kaphiy/">Caso de estudio</a> · <a href="https://github.com/Arkasys-GDP/Kaphiy">Repositorio del equipo</a>
     </td>
     <td valign="top">
-      <a href="https://dayle.dev/es/projects/gasoline/"><img src="assets/projects/gasoline.png" width="540" alt="Panel de rutas de Gasoline System"></a><br>
-      <strong>Gasoline System</strong><br>
-      Implementé microservicios, contratos gRPC y eventos NATS para el control de combustible de una flota, en un equipo de cuatro.<br>
-      <a href="https://dayle.dev/es/projects/gasoline/">Caso de estudio</a> · <a href="https://github.com/Application-Distributed-Gasoline-System/Backend">Repositorio del backend</a>
+      <a href="https://dayle.dev/es/projects/miniwasp/"><img src="assets/projects/miniwasp.png" width="540" alt="Sala pública de MiniWasp con mensajes y una foto"></a><br>
+      <strong>MiniWasp</strong><br>
+      Proyecto propio, en producción: mensajería temporal sin cuentas, adjuntos cifrados por sala, moderación con IA dentro del servidor y videollamadas WebRTC.<br>
+      <a href="https://dayle.dev/es/projects/miniwasp/">Caso de estudio</a> · <a href="https://miniwasp.up.railway.app">App en vivo</a>
     </td>
   </tr>
 </table>
 
-[Ver los siete casos de estudio](https://dayle.dev/es/projects/) · [Leer las notas técnicas](https://dayle.dev/es/notes/)
+[Ver todos los casos de estudio](https://dayle.dev/es/projects/) · [Leer las notas técnicas](https://dayle.dev/es/notes/)
 
 En [Booking View](https://dayle.dev/es/projects/booking/) trabajé en la API REST y la app de React Native para reservar inmuebles. [Repositorio del equipo](https://github.com/DaGeus15/BookingView)
 
@@ -54,48 +54,33 @@ En [Booking View](https://dayle.dev/es/projects/booking/) trabajé en la API RES
 
 Problemas concretos que resolví, contados con el código real:
 
-- **[Rotar el refresh token sin echar a nadie por un doble clic](https://dayle.dev/es/notes/refresh-token-rotation/)** · Cada renovación cambia el token y reusar uno viejo cierra la sesión entera. La trampa: dos pestañas renovando a la vez parecen un robo.
-- **[La cédula ecuatoriana tiene dos caras](https://dayle.dev/es/notes/id-card-two-faces/)** · La verificación facial funcionaba con las fotos de prueba y rechazaba casi todas las cédulas reales. Cuatro arreglos, y un umbral calibrado con datos.
-
-## Mi stack
-
 <table>
   <tr>
-    <th scope="row" align="left"><a href="https://dayle.dev/es/experience/#stack-backend">Backend</a></th>
-    <td><img src="assets/stack/java.svg" alt="" width="22"> <img src="assets/stack/spring.svg" alt="" width="22"> <img src="assets/stack/nestjs.svg" alt="" width="22"></td>
-    <td>Java · Spring Boot · Node.js · NestJS</td>
-  </tr>
-  <tr>
-    <th scope="row" align="left"><a href="https://dayle.dev/es/experience/#stack-data">Datos</a></th>
-    <td><img src="assets/stack/postgresql.svg" alt="" width="22"> <img src="assets/stack/mysql.svg" alt="" width="22"> <img src="assets/stack/mongodb.svg" alt="" width="22"></td>
-    <td>PostgreSQL · MySQL · MongoDB · Prisma</td>
-  </tr>
-  <tr>
-    <th scope="row" align="left"><a href="https://dayle.dev/es/experience/#stack-devops">Pruebas y entrega</a></th>
-    <td><img src="assets/stack/docker.svg" alt="" width="22"> <img src="assets/stack/github-actions.svg" alt="" width="22"></td>
-    <td>Mockito · Docker · GitHub Actions · Azure</td>
-  </tr>
-  <tr>
-    <th scope="row" align="left"><a href="https://dayle.dev/es/experience/#stack-frontend">Interfaces</a></th>
-    <td><img src="assets/stack/nextjs.svg" alt="" width="22"> <img src="assets/stack/react.svg" alt="" width="22"> <img src="assets/stack/flutter.svg" alt="" width="22"></td>
-    <td>Next.js · React · TypeScript · Flutter</td>
+    <td width="50%" valign="top">
+      <strong>Rotar el refresh token sin echar a nadie por un doble clic</strong><br>
+      <sub>Cada renovación cambia el token y reusar uno viejo cierra la sesión entera. La trampa: dos pestañas renovando a la vez parecen un robo.</sub><br><br>
+      <a href="https://dayle.dev/es/notes/refresh-token-rotation/">Leer la nota →</a>
+    </td>
+    <td width="50%" valign="top">
+      <strong>La cédula ecuatoriana tiene dos caras</strong><br>
+      <sub>La verificación facial funcionaba con las fotos de prueba y rechazaba casi todas las cédulas reales. Cuatro arreglos, y un umbral calibrado con datos.</sub><br><br>
+      <a href="https://dayle.dev/es/notes/id-card-two-faces/">Leer la nota →</a>
+    </td>
   </tr>
 </table>
 
-[Ver mi stack completo](https://dayle.dev/es/experience/#stack)
+## Mi stack
 
-<details>
-<summary>Protocolos y herramientas</summary>
+<a href="https://dayle.dev/es/experience/#stack">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/DaGeus15/DaGeus15/output/stack-es-dark.svg">
+    <img src="https://raw.githubusercontent.com/DaGeus15/DaGeus15/output/stack-es.svg" alt="Mi stack: Java, Spring Boot, Node.js y NestJS en backend; PostgreSQL, MySQL, MongoDB y Prisma en datos; Docker, GitHub Actions y Azure en pruebas y entrega; Next.js, React, TypeScript y Flutter en interfaces">
+  </picture>
+</a>
 
-- **APIs y mensajería** · REST, Swagger/OpenAPI, gRPC, NATS, Socket.IO
-- **Persistencia y autenticación** · JPA/Hibernate, SQL, PL/SQL, JWT
-- **Entrega e interfaces** · Docker Compose, Git, Vercel, React Native, Tailwind CSS
-
-</details>
+[Ver mi stack completo](https://dayle.dev/es/experience/#stack) · Protocolos y herramientas: REST, Swagger/OpenAPI, gRPC, NATS, Socket.IO, WebRTC, JPA/Hibernate, JWT, Mockito, Vercel, Tailwind CSS
 
 ### Actualmente aprendiendo Ciencia de Datos
-
-<p><img src="assets/stack/python.svg" alt="" width="22"> Python para ciencia de datos · análisis y visualización con Power BI</p>
 
 Terminé **Data Science Essentials with Python** (Cisco, 2026). Resolví sus cinco proyectos abiertos con pandas, matplotlib y scikit-learn en [data-science-essentials-python](https://github.com/DaGeus15/data-science-essentials-python).
 

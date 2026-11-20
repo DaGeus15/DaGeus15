@@ -1,5 +1,6 @@
 /**
  * Renders the profile's live cards from GitHub data, in the portfolio palette:
+ *   stack-{es,en}[-dark].svg          the stack, grouped, with the portfolio's logos
  *   activity-{es,en}[-dark].svg       yearly totals, streaks and a weekday chart
  *   collaborators-{es,en}[-dark].svg  people I share public repositories with
  *
@@ -11,7 +12,7 @@
  * Avatars are embedded as data URIs because GitHub's image proxy blocks
  * external images inside an SVG.
  */
-import { mkdirSync, writeFileSync } from "node:fs";
+import { mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
 const [user = "DaGeus15", out = "dist"] = process.argv.slice(2);
@@ -126,8 +127,8 @@ for (const p of collaborators) {
 
 // Same families as the snake and the portfolio: ink, muted, brass, track.
 const THEMES = {
-  light: { ink: "#1f2a44", muted: "#6b6458", brass: "#805125", bar: "#bd9870", track: "#e9e5dd", line: "#e2dccf" },
-  dark: { ink: "#e6e1d8", muted: "#9ea6ae", brass: "#f0ce93", bar: "#b59060", track: "#1c2734", line: "#2a3442" },
+  light: { ink: "#1f2a44", muted: "#6b6458", brass: "#805125", bar: "#bd9870", track: "#e9e5dd", line: "#e2dccf", tileTop: "#fbfaf7", sheen: "#ffffff" },
+  dark: { ink: "#e6e1d8", muted: "#9ea6ae", brass: "#f0ce93", bar: "#b59060", track: "#1c2734", line: "#2a3442", tileTop: "#243243", sheen: "#3d4d61" },
 };
 const TEXT = {
   es: {
@@ -248,10 +249,95 @@ function collaboratorsCard(lang, t) {
 </svg>`;
 }
 
+/* ---------- Stack ---------- */
+
+// The portfolio's own monochrome logos (assets/stack-mono), painted in the
+// theme ink like the site's stack tiles: one material, no brand rainbow.
+const STACK = {
+  es: [
+    ["Backend", ["Java", "java"], ["Spring Boot", "spring"], ["Node.js", "nodejs"], ["NestJS", "nestjs"]],
+    ["Datos", ["PostgreSQL", "postgresql"], ["MySQL", "mysql"], ["MongoDB", "mongodb"], ["Prisma", "prisma"]],
+    ["Pruebas y entrega", ["Docker", "docker"], ["GitHub Actions", "github-actions"], ["Azure", "azure"]],
+    ["Interfaces", ["Next.js", "nextjs"], ["React", "react"], ["TypeScript", "typescript"], ["Flutter", "flutter"]],
+  ],
+  en: [
+    ["Backend", ["Java", "java"], ["Spring Boot", "spring"], ["Node.js", "nodejs"], ["NestJS", "nestjs"]],
+    ["Data", ["PostgreSQL", "postgresql"], ["MySQL", "mysql"], ["MongoDB", "mongodb"], ["Prisma", "prisma"]],
+    ["Testing & delivery", ["Docker", "docker"], ["GitHub Actions", "github-actions"], ["Azure", "azure"]],
+    ["Interfaces", ["Next.js", "nextjs"], ["React", "react"], ["TypeScript", "typescript"], ["Flutter", "flutter"]],
+  ],
+};
+const LEARNING = { es: ["Aprendiendo", "Python · ciencia de datos"], en: ["Learning", "Python · data science"] };
+const STACK_TITLE = { es: "Mi stack", en: "My stack" };
+
+const logo = (file, x, y, size, color) => {
+  const svg = readFileSync(join(import.meta.dirname, "..", "assets", "stack-mono", `${file}.svg`), "utf8");
+  const viewBox = svg.match(/viewBox="([^"]+)"/)[1];
+  // Some logos carry their brand colours; the card paints them all in one ink.
+  const inner = svg
+    .replace(/^<svg[^>]*>/, "")
+    .replace(/<\/svg>\s*$/, "")
+    .replace(/(fill|stroke)="(?!none)[^"]*"/g, '$1="currentColor"')
+    .replace(/style="[^"]*"/g, "");
+  const stroke = /<svg[^>]*fill="none"/.test(svg);
+  return `<svg x="${x}" y="${y}" width="${size}" height="${size}" viewBox="${viewBox}" color="${color}"
+    fill="${stroke ? "none" : "currentColor"}" stroke="currentColor" stroke-width="${stroke ? 2 : 0}"
+    stroke-linecap="round" stroke-linejoin="round">${inner}</svg>`;
+};
+
+function stackCard(lang, t) {
+  const groups = STACK[lang];
+  const W = 840;
+  const colW = (W - 48) / 2;
+  const tileW = 92;
+  const groupH = 128;
+  const H = 32 + groupH * 2 + 44;
+  let n = 0;
+  const body = groups
+    .map(([label, ...items], g) => {
+      const gx = 24 + (g % 2) * (colW + 0);
+      const gy = 30 + Math.floor(g / 2) * groupH;
+      const tiles = items
+        .map(([name, file], i) => {
+          const tx = gx + i * tileW;
+          const delay = 120 + n++ * 55;
+          return `<g class="in" style="animation-delay:${delay}ms">
+            <rect x="${tx}" y="${gy + 22}" width="58" height="58" rx="14" fill="url(#tile)" stroke="${t.line}"/>
+            <path d="M${tx + 14} ${gy + 22.5} H${tx + 44}" stroke="${t.sheen}" stroke-linecap="round"/>
+            ${logo(file, tx + 16, gy + 38, 26, t.ink)}
+            <text x="${tx + 29}" y="${gy + 98}" text-anchor="middle" font-family="${SANS}" font-size="11.5" fill="${t.muted}">${esc(name)}</text>
+          </g>`;
+        })
+        .join("");
+      return `<g class="in" style="animation-delay:${g * 80}ms">
+          <rect x="${gx}" y="${gy + 2}" width="3" height="12" rx="1.5" fill="${t.brass}"/>
+          <text x="${gx + 11}" y="${gy + 13}" font-family="${SANS}" font-size="13" font-weight="600" fill="${t.ink}">${esc(label)}</text>
+        </g>${tiles}`;
+    })
+    .join("");
+  const [learnLabel, learnText] = LEARNING[lang];
+  const ly = H - 30;
+  const learn = `<g class="in" style="animation-delay:${200 + n * 55}ms">
+      <line x1="24" y1="${ly - 22}" x2="${W - 24}" y2="${ly - 22}" stroke="${t.line}"/>
+      ${logo("python", 24, ly - 12, 16, t.brass)}
+      <text x="48" y="${ly + 1}" font-family="${SANS}" font-size="12.5" fill="${t.muted}"><tspan font-weight="600" fill="${t.ink}">${esc(learnLabel)}</tspan>  ${esc(learnText)}</text>
+    </g>`;
+  const names = groups.map(([label, ...items]) => `${label}: ${items.map(([nm]) => nm).join(", ")}`).join(". ");
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" role="img" aria-label="${esc(STACK_TITLE[lang])}. ${esc(names)}">
+  <title>${esc(STACK_TITLE[lang])}</title>
+  <style>${motion}</style>
+  <defs><linearGradient id="tile" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="${t.tileTop}"/><stop offset="1" stop-color="${t.track}"/></linearGradient></defs>
+  <rect x="0.5" y="0.5" width="${W - 1}" height="${H - 1}" rx="12" fill="none" stroke="${t.line}"/>
+  ${body}
+  ${learn}
+</svg>`;
+}
+
 mkdirSync(out, { recursive: true });
 for (const lang of ["es", "en"]) {
   for (const [theme, t] of Object.entries(THEMES)) {
     const suffix = theme === "dark" ? "-dark" : "";
+    writeFileSync(join(out, `stack-${lang}${suffix}.svg`), stackCard(lang, t));
     writeFileSync(join(out, `activity-${lang}${suffix}.svg`), activityCard(lang, t));
     if (collaborators.length) writeFileSync(join(out, `collaborators-${lang}${suffix}.svg`), collaboratorsCard(lang, t));
   }
