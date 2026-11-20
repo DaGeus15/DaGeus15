@@ -41,7 +41,7 @@ Software Engineer. I work mostly on the backend with Java and Spring Boot, and a
       <a href="https://dayle.dev/en/projects/miniwasp/"><img src="assets/projects/miniwasp.png" width="540" alt="MiniWasp public room with messages and a photo"></a><br>
       <strong>MiniWasp</strong><br>
       My own project, live: ephemeral messaging with no accounts, per-room encrypted attachments, on-server AI moderation and WebRTC video calls.<br>
-      <a href="https://dayle.dev/en/projects/miniwasp/">Case study</a> · <a href="https://miniwasp.up.railway.app">Live app</a>
+      <a href="https://dayle.dev/en/projects/miniwasp/">Case study</a> · <a href="https://miniwasp.up.railway.app">Live app</a> · <a href="https://github.com/DaGeus15/miniwasp">Repository</a>
     </td>
   </tr>
 </table>
