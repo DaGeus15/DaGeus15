@@ -50,6 +50,13 @@ Software Engineer. Trabajo sobre todo en backend con Java y Spring Boot, y tambi
 
 En [Booking View](https://dayle.dev/es/projects/booking/) trabajé en la API REST y la app de React Native para reservar inmuebles. [Repositorio del equipo](https://github.com/DaGeus15/BookingView)
 
+## Notas técnicas
+
+Problemas concretos que resolví, contados con el código real:
+
+- **[Rotar el refresh token sin echar a nadie por un doble clic](https://dayle.dev/es/notes/refresh-token-rotation/)** · Cada renovación cambia el token y reusar uno viejo cierra la sesión entera. La trampa: dos pestañas renovando a la vez parecen un robo.
+- **[La cédula ecuatoriana tiene dos caras](https://dayle.dev/es/notes/id-card-two-faces/)** · La verificación facial funcionaba con las fotos de prueba y rechazaba casi todas las cédulas reales. Cuatro arreglos, y un umbral calibrado con datos.
+
 ## Mi stack
 
 <table>
@@ -94,7 +101,21 @@ Terminé **Data Science Essentials with Python** (Cisco, 2026). Resolví sus cin
 
 [Ver mi formación](https://dayle.dev/es/about/#about)
 
+## Con quién construyo
+
+Compañeras y compañeros de equipo con quienes comparto repositorios públicos.
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/DaGeus15/DaGeus15/output/collaborators-es-dark.svg">
+  <img src="https://raw.githubusercontent.com/DaGeus15/DaGeus15/output/collaborators-es.svg" alt="Compañeros de equipo con quienes comparto repositorios públicos">
+</picture>
+
 ## Contribuciones
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/DaGeus15/DaGeus15/output/activity-es-dark.svg">
+  <img src="https://raw.githubusercontent.com/DaGeus15/DaGeus15/output/activity-es.svg" alt="Mis contribuciones del último año, mis rachas y mi actividad por día de la semana">
+</picture>
 
 <a href="https://github.com/DaGeus15?tab=overview">
   <picture>
@@ -104,3 +125,5 @@ Terminé **Data Science Essentials with Python** (Cisco, 2026). Resolví sus cin
     <img src="https://raw.githubusercontent.com/DaGeus15/DaGeus15/output/github-contribution-grid-snake.svg" alt="Serpiente animada que recorre el calendario real de mis contribuciones en GitHub">
   </picture>
 </a>
+
+<sub>Las tarjetas y la serpiente se actualizan solas cada 12 horas con mis datos de GitHub.</sub>

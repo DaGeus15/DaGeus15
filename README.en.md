@@ -50,6 +50,13 @@ Software Engineer. I work mostly on the backend with Java and Spring Boot, and a
 
 On [Booking View](https://dayle.dev/en/projects/booking/) I worked on the REST API and the React Native app for booking properties. [Team repository](https://github.com/DaGeus15/BookingView)
 
+## Technical notes
+
+Concrete problems I solved, told with the real code:
+
+- **[Rotating refresh tokens without logging anyone out on a double click](https://dayle.dev/en/notes/refresh-token-rotation/)** · Every refresh swaps the token, and reusing an old one ends the whole session. The catch: two tabs refreshing at once look like theft.
+- **[The Ecuadorian ID card has two faces](https://dayle.dev/en/notes/id-card-two-faces/)** · Face verification worked with the test photos and rejected almost every real ID card. Four fixes, and a threshold calibrated with data.
+
 ## My stack
 
 <table>
@@ -94,7 +101,21 @@ I completed **Data Science Essentials with Python** (Cisco, 2026) and solved its
 
 [See my education](https://dayle.dev/en/about/#about)
 
+## Who I build with
+
+Teammates I share public repositories with.
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/DaGeus15/DaGeus15/output/collaborators-en-dark.svg">
+  <img src="https://raw.githubusercontent.com/DaGeus15/DaGeus15/output/collaborators-en.svg" alt="Teammates I share public repositories with">
+</picture>
+
 ## Contributions
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/DaGeus15/DaGeus15/output/activity-en-dark.svg">
+  <img src="https://raw.githubusercontent.com/DaGeus15/DaGeus15/output/activity-en.svg" alt="My contributions in the last year, my streaks and my activity by day of the week">
+</picture>
 
 <a href="https://github.com/DaGeus15?tab=overview">
   <picture>
@@ -104,3 +125,5 @@ I completed **Data Science Essentials with Python** (Cisco, 2026) and solved its
     <img src="https://raw.githubusercontent.com/DaGeus15/DaGeus15/output/github-contribution-grid-snake.svg" alt="Animated snake crossing the real calendar of my GitHub contributions">
   </picture>
 </a>
+
+<sub>The cards and the snake refresh on their own every 12 hours from my GitHub data.</sub>
