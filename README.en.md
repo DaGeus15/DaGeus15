@@ -52,8 +52,6 @@ On [Booking View](https://dayle.dev/en/projects/booking/) I worked on the REST A
 
 ## Technical notes
 
-Concrete problems I solved, told with the real code:
-
 <table>
   <tr>
     <td width="50%" valign="top">
@@ -88,8 +86,6 @@ I completed **Data Science Essentials with Python** (Cisco, 2026) and solved its
 
 ## Who I build with
 
-Teammates I share public repositories with.
-
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/DaGeus15/DaGeus15/output/collaborators-en-dark.svg">
   <img src="https://raw.githubusercontent.com/DaGeus15/DaGeus15/output/collaborators-en.svg" alt="Teammates I share public repositories with">
@@ -110,5 +106,3 @@ Teammates I share public repositories with.
     <img src="https://raw.githubusercontent.com/DaGeus15/DaGeus15/output/github-contribution-grid-snake.svg" alt="Animated snake crossing the real calendar of my GitHub contributions">
   </picture>
 </a>
-
-<sub>The cards and the snake refresh on their own every 12 hours from my GitHub data.</sub>
