@@ -21,7 +21,7 @@ Software Engineer. Trabajo sobre todo en backend con Java y Spring Boot, y tambi
       <a href="https://dayle.dev/es/projects/helpdesk/"><img src="assets/projects/helpdesk.png" width="540" alt="Panel del operador del asistente de cursos"></a><br>
       <strong>Asistente de cursos CTT-FISEI</strong><br>
       Diseñé y probé el asistente de Telegram y su panel de intervención en vivo. Orquesté los agentes de IA que escribieron el código.<br>
-      <a href="https://dayle.dev/es/projects/helpdesk/">Caso de estudio</a> · <a href="https://github.com/DaGeus15/helpdesk_agent_uta">Repositorio</a>
+      <a href="https://dayle.dev/es/projects/helpdesk/">Caso de estudio</a> · <a href="https://helpdesk.dayle.dev/">App en vivo</a> · <a href="https://github.com/DaGeus15/helpdesk_agent_uta">Repositorio</a>
     </td>
     <td width="50%" valign="top">
       <a href="https://dayle.dev/es/projects/fiado/"><img src="assets/projects/fiado.png" width="540" alt="Verificación biométrica de Fiado"></a><br>
