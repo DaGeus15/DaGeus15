@@ -41,7 +41,7 @@ Software Engineer. Trabajo sobre todo en backend con Java y Spring Boot, y tambi
       <a href="https://dayle.dev/es/projects/miniwasp/"><img src="assets/projects/miniwasp.png" width="540" alt="Sala pública de MiniWasp con mensajes y una foto"></a><br>
       <strong>MiniWasp</strong><br>
       Proyecto propio, en producción: mensajería temporal sin cuentas, adjuntos cifrados por sala, moderación con IA dentro del servidor y videollamadas WebRTC.<br>
-      <a href="https://dayle.dev/es/projects/miniwasp/">Caso de estudio</a> · <a href="https://miniwasp.up.railway.app">App en vivo</a> · <a href="https://github.com/DaGeus15/miniwasp">Repositorio</a>
+      <a href="https://dayle.dev/es/projects/miniwasp/">Caso de estudio</a> · <a href="https://miniwasp.dayle.dev">App en vivo</a> · <a href="https://github.com/DaGeus15/miniwasp">Repositorio</a>
     </td>
   </tr>
 </table>
