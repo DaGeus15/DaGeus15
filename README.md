@@ -18,39 +18,35 @@ Software Engineer. Trabajo sobre todo en backend con Java y Spring Boot, y tambi
 <table>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://dayle.dev/es/projects/helpdesk/"><img src="assets/projects/helpdesk.png" width="540" alt="Panel del operador del asistente de cursos"></a><br>
-      <strong>Asistente de cursos CTT-FISEI</strong><br>
-      Diseñé y probé el asistente de Telegram y su panel de intervención en vivo. Orquesté los agentes de IA que escribieron el código.<br>
-      <a href="https://dayle.dev/es/projects/helpdesk/">Caso de estudio</a> · <a href="https://helpdesk.dayle.dev/">App en vivo</a> · <a href="https://github.com/DaGeus15/helpdesk_agent_uta">Repositorio</a>
+      <a href="https://dayle.dev/es/projects/miniwasp/"><img src="assets/projects/miniwasp.png" width="540" alt="Sala pública de MiniWasp con mensajes y una foto"></a><br>
+      <strong>MiniWasp</strong><br>
+      Proyecto propio, en producción: mensajería temporal sin cuentas, adjuntos cifrados por sala, moderación con IA dentro del servidor y videollamadas WebRTC.<br>
+      <a href="https://dayle.dev/es/projects/miniwasp/">Caso de estudio</a> · <a href="https://miniwasp.dayle.dev">App en vivo</a> · <a href="https://github.com/DaGeus15/miniwasp">Repositorio</a>
     </td>
     <td width="50%" valign="top">
+      <a href="https://dayle.dev/es/projects/kaphiy/"><img src="assets/projects/kaphiy.png" width="540" alt="Panel de pedidos de cocina de KAPHIY"></a><br>
+      <strong>KAPHIY</strong><br>
+      Trabajé en el modelo de datos, la API de pedidos y el canal WebSocket de un sistema en producción.<br>
+      <a href="https://dayle.dev/es/projects/kaphiy/">Caso de estudio</a> · <a href="https://github.com/Arkasys-GDP/Kaphiy">Repositorio del equipo</a>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <a href="https://dayle.dev/es/projects/fuelops/"><img src="assets/projects/fuelops.png" width="540" alt="Panel de FuelOps con consumo de combustible y estado de la flota"></a><br>
+      <strong>FuelOps</strong><br>
+      Hice el backend de un sistema de flota y combustible con microservicios, gRPC y eventos NATS: autenticación y roles, rutas, combustible y métricas.<br>
+      <a href="https://dayle.dev/es/projects/fuelops/">Caso de estudio</a> · <a href="https://fuelops.dayle.dev">Demo</a> · <a href="https://github.com/Application-Distributed-Gasoline-System">Repositorio del equipo</a>
+    </td>
+    <td valign="top">
       <a href="https://dayle.dev/es/projects/fiado/"><img src="assets/projects/fiado.png" width="540" alt="Verificación biométrica de Fiado"></a><br>
       <strong>Fiado</strong><br>
       Implementé la prueba de vida, la comparación con la cédula, el traspaso por QR, el registro y la sesión.<br>
       <a href="https://dayle.dev/es/projects/fiado/">Caso de estudio</a>
     </td>
   </tr>
-  <tr>
-    <td valign="top">
-      <a href="https://dayle.dev/es/projects/kaphiy/"><img src="assets/projects/kaphiy.png" width="540" alt="Panel de pedidos de cocina de KAPHIY"></a><br>
-      <strong>KAPHIY</strong><br>
-      Trabajé en el modelo de datos, la API de pedidos y el canal WebSocket de un sistema en producción.<br>
-      <a href="https://dayle.dev/es/projects/kaphiy/">Caso de estudio</a> · <a href="https://github.com/Arkasys-GDP/Kaphiy">Repositorio del equipo</a>
-    </td>
-    <td valign="top">
-      <a href="https://dayle.dev/es/projects/miniwasp/"><img src="assets/projects/miniwasp.png" width="540" alt="Sala pública de MiniWasp con mensajes y una foto"></a><br>
-      <strong>MiniWasp</strong><br>
-      Proyecto propio, en producción: mensajería temporal sin cuentas, adjuntos cifrados por sala, moderación con IA dentro del servidor y videollamadas WebRTC.<br>
-      <a href="https://dayle.dev/es/projects/miniwasp/">Caso de estudio</a> · <a href="https://miniwasp.dayle.dev">App en vivo</a> · <a href="https://github.com/DaGeus15/miniwasp">Repositorio</a>
-    </td>
-  </tr>
 </table>
 
 [Ver todos los casos de estudio](https://dayle.dev/es/projects/) · [Leer las notas técnicas](https://dayle.dev/es/notes/)
-
-En [Booking View](https://dayle.dev/es/projects/booking/) trabajé en la API REST y la app de React Native para reservar inmuebles. [Repositorio del equipo](https://github.com/DaGeus15/BookingView)
-
-En [FuelOps](https://dayle.dev/es/projects/fuelops/) hice el backend de un sistema de flota y combustible con microservicios, gRPC y eventos NATS. [Demo](https://fuelops.dayle.dev) · [Repositorio del equipo](https://github.com/Application-Distributed-Gasoline-System)
 
 ## Notas técnicas
 
