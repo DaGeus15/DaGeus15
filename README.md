@@ -50,6 +50,8 @@ Software Engineer. Trabajo sobre todo en backend con Java y Spring Boot, y tambi
 
 En [Booking View](https://dayle.dev/es/projects/booking/) trabajé en la API REST y la app de React Native para reservar inmuebles. [Repositorio del equipo](https://github.com/DaGeus15/BookingView)
 
+En [FuelOps](https://dayle.dev/es/projects/fuelops/) hice el backend de un sistema de flota y combustible con microservicios, gRPC y eventos NATS. [Demo](https://fuelops.dayle.dev) · [Repositorio del equipo](https://github.com/Application-Distributed-Gasoline-System)
+
 ## Notas técnicas
 
 <table>
