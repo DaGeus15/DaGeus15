@@ -24,24 +24,32 @@ Software Engineer. I work mostly on the backend with Java and Spring Boot, and a
       <a href="https://dayle.dev/en/projects/miniwasp/">Case study</a> · <a href="https://miniwasp.dayle.dev">Live app</a> · <a href="https://github.com/DaGeus15/miniwasp">Repository</a>
     </td>
     <td width="50%" valign="top">
+      <a href="https://dayle.dev/en/projects/securetex/"><img src="assets/projects/securetex.png" width="540" alt="SecureTex editor with the LaTeX source and the signed PDF"></a><br>
+      <strong>SecureTex</strong><br>
+      Collaborative LaTeX editor: content encrypted in the browser, every compilation in a gVisor container with no network and a PDF signed with Ed25519. Written with AI agents I directed.<br>
+      <a href="https://dayle.dev/en/projects/securetex/">Case study</a> · <a href="https://securetex.dayle.dev">Live app</a> · <a href="https://github.com/SecurTex-Devs/securetex">Team repository</a>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
       <a href="https://dayle.dev/en/projects/kaphiy/"><img src="assets/projects/kaphiy.png" width="540" alt="KAPHIY kitchen order dashboard"></a><br>
       <strong>KAPHIY</strong><br>
       I worked on the data model, the ordering API and the WebSocket channel of a system in production.<br>
       <a href="https://dayle.dev/en/projects/kaphiy/">Case study</a> · <a href="https://github.com/Arkasys-GDP/Kaphiy">Team repository</a>
     </td>
-  </tr>
-  <tr>
     <td valign="top">
       <a href="https://dayle.dev/en/projects/fuelops/"><img src="assets/projects/fuelops.png" width="540" alt="FuelOps dashboard with fuel consumption and fleet status"></a><br>
       <strong>FuelOps</strong><br>
       I built the backend of a fleet and fuel system with microservices, gRPC and NATS events: authentication and roles, routes, fuel and metrics.<br>
       <a href="https://dayle.dev/en/projects/fuelops/">Case study</a> · <a href="https://fuelops.dayle.dev">Demo</a> · <a href="https://github.com/Application-Distributed-Gasoline-System">Team repository</a>
     </td>
-    <td valign="top">
+  </tr>
+  <tr>
+    <td colspan="2" valign="top">
       <a href="https://dayle.dev/en/projects/fiado/"><img src="assets/projects/fiado.png" width="540" alt="Fiado biometric verification"></a><br>
       <strong>Fiado</strong><br>
       I built the liveness check, the ID card face match, the QR handoff to the phone, sign-up and sessions.<br>
-      <a href="https://dayle.dev/en/projects/fiado/">Case study</a>
+      <a href="https://dayle.dev/en/projects/fiado/">Case study</a> · <a href="https://github.com/seby10/simulador-financiero">Team repository</a>
     </td>
   </tr>
 </table>
